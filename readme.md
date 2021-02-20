@@ -1,25 +1,27 @@
-#Programming Project – 1
-###Dirghayu Mainali (L20445249)
+# Programming Project – 1
+### Dirghayu Mainali (L20445249)
 
 This is the project to create a chat server using the Go RPC Package which implements the purpose of the remote procedure call, which is to run a program that calls a function on another host (server) to run the code for the function and return the results of the function execution to the original caller host which uses the results to complete a program.  
 
-##REQUIREMENTS
--Go application
--Any Unix or Windows system
+## REQUIREMENTS
+- Go application
+- Any Unix or Windows system
 
-##PROJECT FOLDER STRUCTURE
-programmingProject1
+## PROJECT FOLDER STRUCTURE
+- programmingProject1
+```
  |-server
  |   |-server.go
  |-client
  |   |-client.go
  |-client_test.go
+```
 
-##HOW TO RUN THE PROGRAM
+## HOW TO RUN THE PROGRAM
  
- Building and running the application
+ ## Building and running the application
  -----------------------------------------------------------------------------------------------------------
- ####Start server
+ #### Start server
  ```
  1. cd into the server directory
     ProgrammingProject1$ cd server
@@ -29,14 +31,14 @@ programmingProject1
     ProgrammingProject1>server$ ./server
 ```
  
-####Run the test 
+#### Run the test 
 ```
  4. go back to main project folder and run the test to make sure server is workimg properly and cliennt can communicate with it
     ProgrammingProject1$ go test client_test.go
 if everything is working properly, you will get a OK message printed on screen
 ```
  
-####Start client
+#### Start client
 ```
  5. cd into the client directory
     ProgrammingProject1$ cd client
@@ -46,7 +48,7 @@ if everything is working properly, you will get a OK message printed on screen
     ProgrammingProject1>client$ ./client
  ```
 
-##TESTING FOR CONCURRENCY
+## TESTING FOR CONCURRENCY
  - run the client executable in multiple command prompt window with different username
     ProgrammingProject1>client$ ./client
  - It will prompt for the username. Enter a unique username every time. Username should be one word. Example:
