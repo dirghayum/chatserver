@@ -49,13 +49,17 @@ if everything is working properly, you will get a OK message printed on screen
  ```
 
 ## TESTING FOR CONCURRENCY
+
  - run the client executable in multiple command prompt window with different username
     ProgrammingProject1>client$ ./client
- - It will prompt for the username. Enter a unique username every time. Username should be one word. Example:
+ - It will prompt for the username. Enter a unique username every time. Username should be one word. 
+   - Example:
     ➜  client$ ./client
     Welcome .. Please enter your name and press <enter> to join
     Your Username: Dirghayu
  - Try to send messages from different chat window at once (may be use someone’s help if needed)
+
+
 This way the program allows you to run multiple clients and send the corresponding message at the same time. Also, the private message can be send to the user with the key word pm <clientname> <message>. We can see in the following screenshot.
  
-This application has been tested on all major OS, -windows, mac and linux.
+This application has been tested on all major OS, windows, mac and linux.
